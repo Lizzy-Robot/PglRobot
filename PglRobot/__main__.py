@@ -76,9 +76,9 @@ def get_readable_time(seconds: int) -> str:
 PM_START_TEXT = """
 Hi {}, my name is {}! 
 I am a  Powerfull  group management bot. You can find my list of available commands with /help.
-Maintained by [🖤「 𝗣𝗲𝗿𝗳𝗲𝗰𝘁™ 」🖤](t.me/AuraX_Owner)
+Maintained by [DΣVIᄂ ӨP](t.me/Mr_Unknown_Boi)
 """
-G_START_TEXT = """"𝙃𝙚𝙡𝙡𝙤 𝙋𝙜𝙡𝙍𝙤𝙗𝙤𝙩 𝙄𝙨 𝙄𝙣 𝙏𝙝𝙚 𝙂𝙧𝙤𝙪𝙥. 𝙁𝙤𝙧 𝙃𝙚𝙡𝙥 𝙈𝙚𝙣𝙪 𝙋𝙢 𝙈𝙚. 𝙃𝙖𝙫𝙚𝙣'𝙩 𝙎𝙡𝙚𝙥𝙩 𝙎𝙞𝙣𝙘𝙚- {}!
+G_START_TEXT = """"𝙃𝙚𝙡𝙡𝙤 𝘼𝙇𝙀𝙓𝙎𝙄𝙎 𝙄𝙨 𝙄𝙣 𝙏𝙝𝙚 𝙂𝙧𝙤𝙪𝙥. 𝙁𝙤𝙧 𝙃𝙚𝙡𝙥 𝙈𝙚𝙣𝙪 𝙋𝙢 𝙈𝙚. 𝙃𝙖𝙫𝙚𝙣'𝙩 𝙎𝙡𝙚𝙥𝙩 𝙎𝙞𝙣𝙘𝙚- {}!
 """
 
 HELP_STRINGS = """
@@ -101,14 +101,13 @@ And the following:
     "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n",
 )
 
-PglRobot_IMG = "https://telegra.ph/file/f1d7b30b05ba9f0dbf4e5.jpg"
+PglRobot_IMG = "https://telegra.ph/file/abb72799a65043341382c.jpg"
 
-PglRobotG_IMG = "https://telegra.ph/file/e8881931bc000c75e8f13.jpg"
+PglRobotG_IMG = "https://telegra.ph/file/9892e5b8462a9ad59aa1b.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project by contacting [AuraX Owner](https://t.me/AuraX_Owner).
- Those who cannot provide monetary support are welcome to help us develop the bot at @AuraXSupport.
- [PayPal](paypal.me/gauravv03)"""
+ You can support the project by contacting My [Owner](https://t.me/Mr_Unknown_Boi).
+ Those who cannot provide monetary support are welcome to help us develop the bot at @Bakchodi_Squad."""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -231,8 +230,8 @@ def start(update: Update, context: CallbackContext):
                                 ),
                             ),
                             InlineKeyboardButton(
-                                text="𝗣𝗴𝗹𝗭𝗼𝗻𝗲⚡️",
-                                url="https://t.me/PglZone",
+                                text="𝗖𝗵𝗮𝘁𝗚𝗿𝗽⚡️",
+                                url="https://t.me/god_of_loll",
                             ),    
                         ],
                         [
@@ -242,17 +241,17 @@ def start(update: Update, context: CallbackContext):
                              ),
                             InlineKeyboardButton(
                                 text="𝗖𝗥𝗘𝗔𝗧𝗘𝗥⚡️",
-                                url="https://t.me/AuraX_Owner",
+                                url="https://t.me/Mr_Unknown_Boi",
                             ),
                         ],
                         [
                             InlineKeyboardButton(
-                                text="𝗨𝗽𝗱𝗮𝘁𝗲𝘀⚡️",
-                                url="https://t.me/PglRobotUpdates",
+                                text="𝗥𝗼𝘀𝗲𝗙𝗲𝗱⚡️",
+                                url="https://t.me/Bakchodi_Squad/31298",
                             ),
                             InlineKeyboardButton(
                                 text="𝗥𝗘𝗣𝗢⚡️",
-                                url="https://github.com/IisGaurav/PglRobot",
+                                url="https://t.me/Bakchodi_Squad/31295",
                             ),
                         ],
                     ]
@@ -635,7 +634,7 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "PglRobot now ready to work!")
+            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "Alexsis now ready to work!")
         except Unauthorized:
             LOGGER.warning(
                 "Bot isnt able to send message to support_chat, go and check!"
